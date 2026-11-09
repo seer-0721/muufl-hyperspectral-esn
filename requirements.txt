@@ -1,0 +1,27 @@
+# 核心依赖
+torch==2.9.1
+torchvision==0.14.1
+
+# 科学计算
+numpy==1.26.4
+scipy==1.8.0
+scikit-learn==1.3.0
+pandas==2.0.0
+
+# 数据可视化
+matplotlib==3.7.0
+seaborn==0.12.2
+
+# 数据处理
+h5py==3.10.0
+tqdm==4.66.1
+
+# 开发工具
+jupyter==1.0.0
+ipython==8.22.2
+black==24.1.1
+flake8==7.0.0
+
+# 文档生成
+pdoc==14.2.0
+mkdocs==1.5.3

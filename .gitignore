@@ -1,0 +1,28 @@
+# ---- 数据集：MUUFL Gulfport 原始 .mat（约 44 MB，从发布方公开下载）----
+data/*
+!data/README_scene_labels.md
+
+# ---- 特征缓存与中间结果（.npy 合计约 750 MB）----
+cache/
+*.npy
+*.npz
+*.pkl
+*.mat
+*.pt
+*.pth
+
+# ---- 临时日志（results/ 下的实验记录与表格保留）----
+logs/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- 报告产物 ----
+*.pdf
+*.pptx
+~$*
